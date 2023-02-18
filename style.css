@@ -61,16 +61,29 @@ body {
     padding: 6px 9px;
 }
 
+.container {
+    padding-inline: min(4rem, 10%);
+}
+
 .thumbnail {
-    width: 300px;
-    height: 350px;
+    width: 250px;
     border-radius: 1rem;
 }
 
 .card {
+    display: inline-block;
     background-color: var(--clr-secondary);
     border-radius: 1rem;
     padding: 1rem;
     width: fit-content;
     text-align: center;
+    margin: 0.5rem;
+}
+
+.card-child:not(:first-child) {
+    margin-top: 1rem;
+}
+
+.grid {
+    margin-block: 2rem;
 }
