@@ -2,7 +2,6 @@ const api_link = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity
 const img_path = 'https://image.tmdb.org/t/p/w1280';
 const searchApi = "https://api.themoviedb.org/3/search/movie?&api_key=ee07d09975fa3cf6ecf20221cff7c30a&query=";
 
-const section = document.querySelector("#section");
 const grid = document.querySelector(".grid");
 const form = document.querySelector("#form");
 const queryEl = document.querySelector("#query-el");

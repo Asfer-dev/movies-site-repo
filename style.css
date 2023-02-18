@@ -70,6 +70,11 @@ body {
     border-radius: 1rem;
 }
 
+.title {
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .card {
     display: inline-block;
     background-color: var(--clr-secondary);
